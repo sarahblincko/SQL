@@ -1,3 +1,3 @@
 # SQL-IAPT
 
-general SQL queries to be used on the IAPT dataset 
+SQL queries to be used on the IAPT dataset, focussed on replicating the monthly 'lastest statistics' published via NHS Digital

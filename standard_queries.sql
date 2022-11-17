@@ -1,3 +1,6 @@
+
+-- an @Offset of '0' will return values from the most recent month of data available within NCDR (Primary submission)
+
 DECLARE @Offset INT = -1
 
 DECLARE @PeriodStart AS DATE = (SELECT DATEADD(MONTH,@Offset,MAX([ReportingPeriodStartDate])) FROM [NHSE_IAPT_v2].[dbo].[IDS000_Header])
